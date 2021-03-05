@@ -8,7 +8,6 @@ import ForgotPassword from './ForgotPassword'
 import { Container } from 'react-bootstrap'
 import { AuthProvider } from '../contexts/AuthContext'
 import { HashRouter as Router, Switch, Route } from 'react-router-dom'
-import background from "../LoginScreen.jpg";
 
 
 function App () {
@@ -16,7 +15,7 @@ function App () {
   const container_styling = {
     minHeight: '100vh',
     minWidth: '100%',
-    backgroundImage: `url(${background})` 
+    backgroundImage: `url(https://drive.google.com/uc?export=view&id=1crdOVRgDs0sozdktJ982iGikET5hMlSI)`    
   };
 
 
